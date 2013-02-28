@@ -19,7 +19,7 @@ class HpWhoOutComponent extends TemplaterComponentTmpl
 				{
 					$v['user_href.title'] = $ar['day_type_name.body'];
 				}
-				$ar['day_type.visible'] = true;
+				$ar['day_type.visible']      = true;
 				$args['everyone_in.visible'] = false;
 				break;
 			}
