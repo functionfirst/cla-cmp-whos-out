@@ -1,4 +1,10 @@
-cla-cmp-whos-out
-================
+Who's out today
+------------------------
+[![](https://raw.github.com/Claromentis/cla-cmp-whos-out/master/screenshot.png)](https://raw.github.com/Claromentis/cla-cmp-whos-out/master/screenshot.png)
 
-A Claromentis component to output everyone that's reported as out from the Holiday Planner app
+-------------------------
+To install, simply copy <b>HPWhoOutComponent</b> to <b>/intranet/holidays/classes</b>. To embed the component on to a Claromentis template file, simply add the following tag:
+
+```html
+	<component class="HPWhoOutComponent" key="yourSlider_keyname">
+```
