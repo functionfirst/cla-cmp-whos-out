@@ -17,7 +17,7 @@ class HpWhoOutComponent extends TemplaterComponentTmpl
 			{
 				foreach ($ar['users_list.datasrc'] as &$v)
 				{
-					$v['user_href.title'] = $ar['day_type_name.body'];
+					$v['user_title'] = $ar['day_type_name.body'];
 				}
 				$ar['day_type.visible']      = true;
 				$args['everyone_in.visible'] = false;
