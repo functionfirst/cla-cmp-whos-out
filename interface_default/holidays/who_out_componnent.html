@@ -1,0 +1,21 @@
+<div style="padding:5px;">
+<span name="everyone_in" style="font-weight: bold">Everyone's in today!</span>
+<table class="HolidaysPlainTable" width="100%">
+<tbody name="day_types" datasrc="">
+	<tr name="day_type" visible="0">
+		<td>
+			<b name="day_type_name">Holiday</b>
+		</td>
+		<td>
+			<txt name="users_list" datasrc="">
+				<ifempty>
+					<!-- Display nothing -->
+				</ifempty>
+				<a href="../people/viewprofile.php?id={userid}" name="user_href"><txt name="user_name">Name</txt></a> 
+				(<txt name="day_part_txt">All day</txt>)<br />
+			</txt>
+		</td>
+	</tr>
+	</tbody>
+</table>
+</div>
